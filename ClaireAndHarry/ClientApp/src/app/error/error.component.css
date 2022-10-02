@@ -1,0 +1,13 @@
+.tile {
+  border: solid 2px #077EF8;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: white;
+  color: #077EF8
+}
+
+  .tile:hover {
+    background-color: #077EF8;
+    color: white;
+  }

@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+* {
+  font-family: 'Berlin Sans FB';
+  color: #077EF8;
+}
+
+button {
+  border: 0.1rem solid #077EF8;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #077EF8;
+  margin: 0.5rem 0 0 0;
+}
+
+button:hover {
+  background-color: #077EF8;
+  color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.active{
+    color: red;
+}
+
+h1 {
+  color: #077EF8;
+}

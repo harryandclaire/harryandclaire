@@ -1,0 +1,13 @@
+<form class="example-form">
+  <div>
+    <label for="username">Username:</label>
+    <input placeholder="Enter username" name="usename"
+           [(ngModel)]="username">
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input placeholder="Enter password" name="password"
+           [(ngModel)]="password">
+  </div>
+</form>
+<button (click) ="IsAuthenticated()">Login</button>
