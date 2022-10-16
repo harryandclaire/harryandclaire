@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { PhotosComponent } from './photos/photos.component';
-import { PhotoFolderTileComponent } from './photo-folder-tile/photo-folder-tile.component';
+import { TileComponent } from './tile/tile.component';
 import { DatesComponent } from './dates/dates.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PracticeArea } from './practice-area/practice-area.component';
 import { ErrorComponent } from './error/error.component';
 import { LoginComponent } from './login/login.component';
+import { ChessComponent } from './chess/chess.component';
+import { DateInformationComponent } from './date-information/date-information.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +23,10 @@ import { LoginComponent } from './login/login.component';
     NavMenuComponent,
     HomeComponent,
     PhotosComponent,
-    PhotoFolderTileComponent,
+    TileComponent,
     DatesComponent,
+    ChessComponent,
+    DateInformationComponent,
     ErrorComponent,
     LoginComponent,
     FetchDataComponent
@@ -36,10 +40,12 @@ import { LoginComponent } from './login/login.component';
       { path: 'home', component: HomeComponent },
       { path: 'photos', component: PhotosComponent },
       { path: 'dates', component: DatesComponent },
+      { path: 'chess', component: ChessComponent },
       { path: 'error', component: ErrorComponent },
       { path: 'login', component: LoginComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'practice-area', component: PracticeArea },
+      { path: 'date/:id', component: DateInformationComponent }
     ])
   ],
   providers: [],

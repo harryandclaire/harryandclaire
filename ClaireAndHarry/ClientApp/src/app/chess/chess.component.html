@@ -1,0 +1,10 @@
+<div *ngFor="let i of rows">
+  <div class="row">
+    <div *ngFor="let j of columns"
+         class="square"
+         [ngClass]="{'black-square': (i + j) % 2 === 1}"
+         (click)="movePiece(i,j)">
+      <div [ngClass]="{'black-piece': getPieceForSquare(i,j)?.color === 0, 'white-piece': getPieceForSquare(i,j)?.color === 1}">{{getPieceForSquare(i,j)?.name}}</div>
+    </div>
+  </div>
+</div>

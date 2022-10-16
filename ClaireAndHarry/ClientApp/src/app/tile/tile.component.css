@@ -4,10 +4,21 @@
   padding: 2rem;
   margin: 2rem;
   background-color: white;
-  color: #077EF8
+  color: #077EF8;
+  padding: 1rem;
 }
 
   .tile:hover {
     background-color: #077EF8;
     color: white;
   }
+
+    .tile:hover > div {
+      background-color: #077EF8;
+      color: white;
+    }
+
+.tile-image {
+  border-radius: 0.5rem;
+  height: 6rem;
+}

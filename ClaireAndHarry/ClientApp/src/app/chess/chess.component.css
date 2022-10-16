@@ -1,0 +1,27 @@
+.square {
+  display: inline-block;
+  height: 4rem;
+  width: 4rem;
+}
+
+.white-square {
+  background-color: white;
+}
+
+.black-square {
+  background-color: black;
+}
+
+.row {
+  height: 4rem;
+}
+
+.black-piece {
+    color: black;
+    background-color: white;
+}
+
+.white-piece {
+    color: white;
+    background-color: black;
+}

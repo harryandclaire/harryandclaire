@@ -1,12 +1,3 @@
-<button class="tile" [routerLink]="['/photos']">
-  <img src="../../assets/brecon-photo.jpg" alt="pic" class="tile-image" />
-  <div>Photos</div>
-</button>
-<button class="tile" [routerLink]="['/dates']">
-  <img src="../../assets/photo-tile-pic.jpg" alt="pic" class="tile-image"/>
-  <div>Dates</div>
-</button>
-<button class="tile" [routerLink]="['/error']">
-  <img src="../../assets/harry-sleeping.jpg" alt="pic" class="tile-image" />
-  <div>Funny photos</div>
-</button>
+<ng-container *ngFor="let area of areas">
+  <app-tile [tileInformation]=area></app-tile>
+</ng-container>

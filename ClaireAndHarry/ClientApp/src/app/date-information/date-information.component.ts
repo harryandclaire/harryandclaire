@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { TileInformation } from '../tile/tile.component';
 
 @Component({
-  selector: 'app-dates',
-  templateUrl: './dates.component.html'
+  selector: 'app-date-information',
+  templateUrl: './date-information.component.html'
 })
-export class DatesComponent {
+export class DateInformationComponent {
   private walkTileInformation = new TileInformation('Leckhampton hill walk', '', '');
   private drinksTileInformation = new TileInformation('Leckhampton hill drinks', '', '');
   private climbingTileInformation = new TileInformation('Climbing', '', '');
